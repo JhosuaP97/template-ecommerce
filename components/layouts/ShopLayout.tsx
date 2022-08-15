@@ -30,7 +30,6 @@ export const ShopLayout: FC<Props> = ({
 
       <Navbar />
 
-      {/* TODO Sidebar */}
       <SideMenu />
 
       <main

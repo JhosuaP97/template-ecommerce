@@ -11,7 +11,7 @@ export interface CartState {
   total: number;
 }
 
-const Cart_INITIAL_STATE: CartState = {
+const CART_INITIAL_STATE: CartState = {
   cart: [],
   numberOfItems: 0,
   subTotal: 0,
@@ -24,7 +24,7 @@ type CartProviderProps = {
 };
 
 export const CartProvider: FC<CartProviderProps> = ({ children }) => {
-  const [state, dispatch] = useReducer(cartReducer, Cart_INITIAL_STATE);
+  const [state, dispatch] = useReducer(cartReducer, CART_INITIAL_STATE);
 
   useEffect(() => {
     try {

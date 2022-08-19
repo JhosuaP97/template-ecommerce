@@ -3,4 +3,4 @@ export * as dbProducts from "./dbProducts";
 export * from "./constants";
 
 // Database test
-export * as seedDataBase from "./products";
+export * as seedDataBase from "./seed-data";

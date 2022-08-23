@@ -42,8 +42,6 @@ const ProductPage: NextPage<Props> = ({ product }) => {
 
     addProductToCart(tempCartProduct);
     router.push("/cart");
-
-    console.log({ tempCartProduct });
   };
 
   return (
